@@ -54,7 +54,7 @@ bool SkyBox::Init(const string& Directory,
         
     m_pMesh = new Mesh();
 
-    return m_pMesh->LoadMesh("C:/dev/projects/Content//sphere.obj");
+    return m_pMesh->LoadMesh("C:/Users/User/Downloads/Content/sphere.obj");
 }
 
 /*Эта функция рендерит скайбокс. Мы начинаем с разрешения метода скайбокса. 

@@ -72,13 +72,13 @@ public:
 
         m_pTankMesh = new Mesh();
 
-        if (!m_pTankMesh->LoadMesh("/Content/phoenix_ugv.md2")) {
+        if (!m_pTankMesh->LoadMesh("C:/Users/User/Downloads/Content/phoenix_ugv.md2")) {
             return false;
         }
 
         m_pSkyBox = new SkyBox(m_pGameCamera, m_persProjInfo);
 
-        if (!m_pSkyBox->Init("/Content/",
+        if (!m_pSkyBox->Init("C:/Users/User/Downloads/Content/",
             "sp3right.jpg",
             "sp3left.jpg",
             "sp3top.jpg",
